@@ -24,7 +24,7 @@ public class SimplePluginTest : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             
-            transform.position = new Vector3(SimpleLoadFunctionX(), 0.5f, SimpleLoadFunctionZ());
+            transform.position = new Vector3(SimpleLoadFunctionX(), 0.5152f, SimpleLoadFunctionZ());
         }
     }
 }
